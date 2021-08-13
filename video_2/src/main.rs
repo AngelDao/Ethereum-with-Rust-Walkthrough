@@ -24,7 +24,6 @@ async fn main() {
     let provider = SignerMiddleware::new(provider_service, wallet);
     // connect contracts
     let [trove_manager, sorted_troves, price_feed] = contracts::get_contracts(&provider);
+    println!("contracts connected");
     // get liquity troves
-    
 }
-

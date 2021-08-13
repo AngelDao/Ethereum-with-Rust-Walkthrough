@@ -4,7 +4,7 @@ mod trove_manager;
 #[path = "./ISortedTrovesABI.rs"]
 mod sorted_troves;
 
-#[path = "./IPriceFeed.rs"]
+#[path = "./IPriceFeedABI.rs"]
 mod price_feed;
 
 pub fn sorted_troves() -> String {
