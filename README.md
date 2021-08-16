@@ -4,6 +4,8 @@
 
 This series walks through how to interact with DeFi on Ethereum with Rust, by building a liquidator for the Liquity Protocol.
 
+Each video Directory contains the markdown from the video as the Directory's `README.md`
+
 ## Technologies to Install:
 
 - [Rust](https://www.rust-lang.org/tools/install)
